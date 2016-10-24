@@ -57,7 +57,7 @@ body {
     top: 10vh;
 }
 
-button {
+.action-button {
     width: 5vw;
     height: 8vh;
     font-family: Roboto, Helvetica Neue, Helvetica, sans-serif;
@@ -81,21 +81,30 @@ button {
     
 }
 
-button:hover {
+.action-button:hover {
     background-color: rgb(57, 57, 57);
 }
 
-button:active {
+.action-button:active {
     background-color: rgb(87, 87, 87);
 }
 
 #popup {
+    z-index: 2;
     position: absolute;
     float: left;
-    width: 20vw;
-    height: 20vw;
-    left: 40vw;
+    width: 50vw;
+    height: 80vh;
+    left: 25vw;
     top: 10vh;
     display: none;
     opacity: 0;
+    background-color: rgb(27, 27, 27);
+    
+}
+
+#exit-button {
+    width: 48px;
+    height: 4px;
+    background-image: url("../img/exit.svg");
 }
