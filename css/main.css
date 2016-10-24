@@ -88,3 +88,14 @@ button:hover {
 button:active {
     background-color: rgb(87, 87, 87);
 }
+
+#popup {
+    position: absolute;
+    float: left;
+    width: 20vw;
+    height: 20vw;
+    left: 40vw;
+    top: 10vh;
+    display: none;
+    opacity: 0;
+}
