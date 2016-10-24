@@ -29,17 +29,52 @@ body {
     float: left;
 }
 
+#content {
+    width: 20vw;
+    height: 100vh;
+    float: left;
+}
+
 #logo {
     background-image: url("../img/logo.png");
     background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+#buttons {
+    text-align: center;
 }
 
 .card {
-    position: absolute;
+    position: relative;
     float: left;
-    width: 30vw;
-    height: 50vh;
-    left: 35vw;
+    width: 20vw;
+    height: 20vw;
+    left: 40vw;
     top: 10vh;
-    background-color: #fff;
+}
+
+button {
+    width: 5vw;
+    height: 8vh;
+    font-family: Roboto, Helvetica Neue, Helvetica, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    border: 2px solid white;
+    -webkit-text-size-adjust: none;
+    font-size: 14px;
+    margin-top: 15px;    
+    width: 100%;
+    float: left;
+    padding: 5px;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    outline: 0
+    
 }
