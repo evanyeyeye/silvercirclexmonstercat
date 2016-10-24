@@ -27,7 +27,6 @@ body {
 
 #wrapper {
     width: 100vw;
-    height: calc(100vh - 20px);
     background: url("../img/bg.svg");
     background-size: 375%;
     float: left;
@@ -60,9 +59,9 @@ button {
     
 }
 
-/*.action-button:hover {
+.action-button:hover {
     background-color: rgb(57, 57, 57);
-}*/
+}
 
 .action-button:active {
     background-color: rgb(87, 87, 87);
@@ -78,9 +77,9 @@ button {
 
 
 #content {
-    width: 20vw;
-    height: 100vh;
-    float: left;
+    width: 100%;
+    height: calc(100vh - 20px);
+    float: left;   
 }
 
 #logo {
@@ -101,25 +100,25 @@ button {
     height: 20vw;
     left: 40vw;
     top: 10vh;
+    clear: both;
 }
 
 #popup {
     z-index: 2;
     position: absolute;
     float: left;
-    width: 50vw;
+    width: 70vw;
     height: 70vh;
-    left: 25vw;
+    left: 15vw;
     top: 5vh;
     visibility: hidden;
     opacity: 0;
     background-color: rgb(27, 27, 27);
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    transition: all .4s ease;
-   
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
 }
 
 #popup-bar {

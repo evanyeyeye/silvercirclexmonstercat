@@ -1,9 +1,15 @@
 var wrapper = document.getElementById("wrapper");
+document.onclick = function() {
+    
+    document.getElementById("signup-button").onclick = function() {};
+    document.getElementById("vote-button").onclick = function() {};
+}
 document.getElementById("signup-button").addEventListener("click", function() { togglePopup("https://splice.com/accounts/sign_up") });
+document.getElementById("signup-button").addEventListener("touchstart", function() { togglePopup("https://splice.com/accounts/sign_up") });
 document.getElementById("vote-button").addEventListener("click", function() { togglePopup("https://splice.com/accounts/sign_up") });
+document.getElementById("vote-button").addEventListener("touchstart", function() { togglePopup("https://splice.com/accounts/sign_up") });
 
 function togglePopup(url) {
-    alert("aasdf");
     var popup = document.getElementById("popup");
     popup.style.opacity = 1;
     popup.style.visibility = "visible";
