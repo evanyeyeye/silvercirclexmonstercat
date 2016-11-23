@@ -6,8 +6,8 @@ document.onclick = function() {
 }
 document.getElementById("signup-button").addEventListener("click", function() { togglePopup("https://splice.com/accounts/sign_up") });
 document.getElementById("signup-button").addEventListener("touchstart", function() { togglePopup("https://splice.com/accounts/sign_up") });
-document.getElementById("vote-button").addEventListener("click", function() { togglePopup("https://splice.com/accounts/sign_up") });
-document.getElementById("vote-button").addEventListener("touchstart", function() { togglePopup("https://splice.com/accounts/sign_up") });
+document.getElementById("vote-button").addEventListener("click", function() { togglePopup("https://splice.com/sefaro/monstercat-mix-contest-2016---sefaro-mix") });
+document.getElementById("vote-button").addEventListener("touchstart", function() { togglePopup("https://splice.com/sefaro/monstercat-mix-contest-2016---sefaro-mix") });
 
 function togglePopup(url) {
     var popup = document.getElementById("popup");
